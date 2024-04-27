@@ -1,0 +1,71 @@
+
+/*styles text*/
+  h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+    text-align: center;
+    color: hsl(248, 100%, 50%);
+    border-style:solid ;
+    border-color: rgb(0, 255, 47);
+    
+  }
+/*set image of background to dice*/
+  body {
+    background-image: url("dice.jpg");
+    
+   }
+  /*aligns text in center and gives color to text*/
+   p {
+    text-align: center;
+    color: rgb(0, 255, 21);
+    font-size: 50px;
+  }
+/*aligns die and centers*/
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/*containes button and centers it*/
+  .container {
+    display: flex;
+    justify-content: center; 
+  }
+/*sgives character to button, text etc*/
+  button {
+    background-color: #aa0404; 
+    color: white;
+    font-size: 16px;
+  }
+/*aligns die*/
+  .column {
+    float: left;
+    width: 50%;
+  }
+
+  h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: hsl(352, 100%, 50%);
+    
+   
+  }
+footer{
+  color: yellowgreen;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  font-size: 30px;
+ 
+  text-align: center;
+  text-align: bottom;
+}
+  html, body {
+    height: 1200px;
+    
+  }
+
+
+
+  

@@ -1,0 +1,31 @@
+/*Pat Schierman*/
+/*sgives character to button, text etc*/
+button {
+  background-color: #e51ea0; 
+  color: white;
+  font-size: 30px;
+}
+/*styles text*/
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    border-color: rgb(0, 255, 47);
+    color: gold;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+    }
+  
+/*set image of background to dice*/
+  body {
+    background-image: url("string2.jpg");
+    background-size: auto;
+    text-align: center;
+   }
+
+/*containes button and centers it*/
+
+.myDiv {
+  width: 200px;
+  height: 100px;
+}
+

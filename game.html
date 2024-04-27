@@ -1,0 +1,69 @@
+
+<!DOCTYPE html> 
+<html lang="en">  
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content= 
+        "width=device-width, initial-scale=1.0"> 
+    <title>Dice Game</title>
+<!--links js page-->
+    <script 
+        type="text/javascript" src="game.js">
+    </script>
+<!--links css page-->
+    <link rel="stylesheet" href="game.css">
+
+
+    
+</head>
+    <h1>Let's Play!
+s
+    </h1>
+    <h2>
+
+        <nav>
+            <h2>Navigation</h2>
+            <a>
+            <a href="./final.html">Home</a><br>
+            <a href="boards.html">Boards</a><br>
+            <a href="final3.html">Globe</a><br>
+            <a href="edp.html">Meme</a><br>
+            <a href="string.html">Palindrom</a><br>
+            <a href="string2.html">Secret Message</a><br>
+            <!-- Add more navigation links for other pages -->
+            </a>
+        </nav>
+
+    </h2>
+<body> 
+<!--assigns generic button style, tells what to do when clicked which reverts back to the js page and looks for a function called roll the dice-->
+    <div class="container"> 
+        <button type="button" 
+            onClick="rollTheDice()"> 
+            Roll the Dice 
+        </button> 
+    </div> 
+<!--assigns class to dice, id to .img1, shows what file name to grab "dice6.png" combines, dividing the die section from the player section-->
+    <div class="row">
+        <div class="column"> 
+            <p class="Player1">Player1</p>  
+                <img id=".img11" src="dice6.png" style="width:200px;height:200px;"> 
+    </div> 
+ <!--assigns class to dice, id to .img2, shows what file name to grab "dice4.png" combines, dividing the die section from the player section-->
+    <div class="column"> 
+        <p class="Player2">Player2</p> 
+            <img id=".img22" src="dice4.png" style="width:200px;height:200px;"> 
+    </div> 
+</body> 
+
+<footer>
+    
+Thanks for playing!
+
+    Pat Schierman<br>
+    University of Advancing Technology<br>
+    2625 W Baseline Rd<br>
+    Tempe, AZ 85283<br>
+    
+</footer>
+</html>

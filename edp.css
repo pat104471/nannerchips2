@@ -1,0 +1,43 @@
+h1 {
+          font-family: fantasy;
+          font-size: 100px;
+          text-align: center;
+          color: rgb(21, 0, 255);
+          text-shadow: -2px -2px 0 rgb(195, 14, 14), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 black, 2px 2px 0 black;
+}
+
+button {
+          display: block;
+          margin: 10px auto;
+          padding: 5px 10px;
+          font-size: 16px;
+          cursor: pointer;
+}
+
+body {
+          text-align: center;
+}
+
+#meme {
+
+          position: absolute;
+          top: -10%;
+          left: -10%;
+          transform: translate(0%, 0%);
+}
+
+img {
+        height: 200px;
+        width: 200px;
+        
+}
+
+footer {
+               
+                color: white;
+                
+              
+               
+              
+             
+}

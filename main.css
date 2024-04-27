@@ -1,0 +1,53 @@
+
+header {
+    text-align: center;
+    font-size: 75px;
+}
+
+
+nav {
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+img.meme2 {
+    position:absolute;
+   
+    
+    margin-right: right;
+ }
+ body {
+   
+    flex-direction: column;
+    background-color: green;
+ }
+
+ul {
+    display: inline;
+    text-align: center;
+    list-style-position: inside;
+}
+li {
+    display: inline;
+    
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    text-align: bottom;
+    color: white;
+    font-size: 50px;
+}
+
+h1 {
+    align-self: center;
+}
+
